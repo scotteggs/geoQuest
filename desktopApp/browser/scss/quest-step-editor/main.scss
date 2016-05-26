@@ -1,0 +1,91 @@
+/* Scrolling Step Menu */
+.steps-list {
+	width: 100%;
+	padding: 13px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	background-color: rgba(91, 192, 222, 0.1);
+	margin: 10px 0;
+	border-radius: 2px;
+	max-height: 65px;
+	white-space: nowrap;
+}
+.stepIcon {
+	display: inline-block;
+	height: 45px;
+	padding: 5px 10px;
+	margin-right: 10px;
+	border-radius: 2px;
+	background-color: rgba(91, 192, 222, 0.3);
+	width: 80px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	cursor: pointer;
+}
+body ::-webkit-scrollbar {
+	opacity: 1;
+}
+
+
+/* Form */
+.edit-step .ng-invalid.ng-touched{
+	background-color: #FA787E;
+}
+
+.breadcrumb {
+	margin-bottom: 5px;
+	li {
+		cursor: pointer;
+	}
+	li.gray {
+		color: gray;
+		cursor: auto;
+	}
+}
+
+/* Map */
+
+#quest-step-map {
+  height: 500px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Modal Preview */
+.modal-preview {
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+	overflow-y: scroll;
+	border-radius: 2px;
+	max-height: 500px;
+	input {
+		margin: 0 auto;
+	}
+	.yellow-bar {
+		text-align: center;
+		padding: 2px;
+		margin: 20px 0;
+		background-color: #ffcc00;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+	.yellow-bar:hover {
+		background-color: #edbd00;
+	}
+}
+.modal-image {
+	width: 100%;
+	margin: 15px 0;
+	img {
+		width: 100%;
+	}
+}
+
+.right-panel {
+	margin-bottom: 20px;
+}
+
+
+
+
+
